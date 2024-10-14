@@ -15,8 +15,6 @@ for tr in tableRow[:10]:
     name, price = tr.contents[2:4]
     fixedName = name.p.string
     fixedPrice = price.span.string
-    #print(price)
-    #fixedPrice = price.a.string
 
     prices[fixedName] = fixedPrice;
 
